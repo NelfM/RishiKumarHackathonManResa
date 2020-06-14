@@ -1,11 +1,11 @@
-# Uncomment the next line to define a global platform for your project
-# platform :ios, '9.0'
-
-target 'vidur' do
-  # Comment the next line if you don't want to use dynamic frameworks
+ platform :ios, '9.0'
   use_frameworks!
 
-pod 'Alamofire', '~> 5.0'
-pod 'SwiftyJSON', '~> 4.0'
+  target 'vidur' do
+      pod 'Alamofire', '~> 5.0'
+      pod 'PromiseKit', '~> 4.4'
+      pod 'PromiseKit/CoreLocation'
+      pod 'PromiseKit/MapKit'
+  end
 
-end
+  

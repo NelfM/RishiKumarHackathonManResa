@@ -46,7 +46,6 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UNUserNotific
             let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
         let region: MKCoordinateRegion? = MKCoordinateRegion(center: coordinate, span: span)
             
-            
             let pin = MKPointAnnotation()
             pin.coordinate = coordinate
             
