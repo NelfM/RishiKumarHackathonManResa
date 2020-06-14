@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A9F99512495FA2800646A60 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F99502495FA2800646A60 /* TriviaViewController.swift */; };
 		1AC5DA2424936275007E7BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2324936275007E7BAF /* AppDelegate.swift */; };
 		1AC5DA2624936275007E7BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2524936275007E7BAF /* SceneDelegate.swift */; };
 		1AC5DA2824936275007E7BAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2724936275007E7BAF /* ViewController.swift */; };
 		1AC5DA2B24936275007E7BAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2924936275007E7BAF /* Main.storyboard */; };
 		1AC5DA2D2493627E007E7BAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2C2493627E007E7BAF /* Assets.xcassets */; };
 		1AC5DA302493627E007E7BAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2E2493627E007E7BAF /* LaunchScreen.storyboard */; };
+		519D6EBC0DFF99AF0C6B17E4 /* Pods_vidur.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 179CF7A77337C12BBDEDFB5A /* Pods_vidur.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		179CF7A77337C12BBDEDFB5A /* Pods_vidur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vidur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A9F99502495FA2800646A60 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		1AC5DA2024936275007E7BAF /* vidur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vidur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC5DA2324936275007E7BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AC5DA2524936275007E7BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		1AC5DA2C2493627E007E7BAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1AC5DA2F2493627E007E7BAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1AC5DA312493627E007E7BAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C2F533BBBEFE5F712507DCF /* Pods-vidur.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vidur.debug.xcconfig"; path = "Target Support Files/Pods-vidur/Pods-vidur.debug.xcconfig"; sourceTree = "<group>"; };
+		1F01E8565BEC6DA59861F7D2 /* Pods-vidur.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vidur.release.xcconfig"; path = "Target Support Files/Pods-vidur/Pods-vidur.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				519D6EBC0DFF99AF0C6B17E4 /* Pods_vidur.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +49,8 @@
 			children = (
 				1AC5DA2224936275007E7BAF /* vidur */,
 				1AC5DA2124936275007E7BAF /* Products */,
+				E4BE738DAD642559FA6B39B6 /* Pods */,
+				2A379375C0423938697DF47E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,10 +70,29 @@
 				1AC5DA2724936275007E7BAF /* ViewController.swift */,
 				1AC5DA2924936275007E7BAF /* Main.storyboard */,
 				1AC5DA2C2493627E007E7BAF /* Assets.xcassets */,
+				1A9F99502495FA2800646A60 /* TriviaViewController.swift */,
 				1AC5DA2E2493627E007E7BAF /* LaunchScreen.storyboard */,
 				1AC5DA312493627E007E7BAF /* Info.plist */,
 			);
 			path = vidur;
+			sourceTree = "<group>";
+		};
+		2A379375C0423938697DF47E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				179CF7A77337C12BBDEDFB5A /* Pods_vidur.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E4BE738DAD642559FA6B39B6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C2F533BBBEFE5F712507DCF /* Pods-vidur.debug.xcconfig */,
+				1F01E8565BEC6DA59861F7D2 /* Pods-vidur.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +102,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1AC5DA342493627E007E7BAF /* Build configuration list for PBXNativeTarget "vidur" */;
 			buildPhases = (
+				E114048444BD78FFD501B209 /* [CP] Check Pods Manifest.lock */,
 				1AC5DA1C24936275007E7BAF /* Sources */,
 				1AC5DA1D24936275007E7BAF /* Frameworks */,
 				1AC5DA1E24936275007E7BAF /* Resources */,
+				E018FF4D0E9F0378B92B6E27 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,6 +163,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		E018FF4D0E9F0378B92B6E27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vidur/Pods-vidur-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-vidur/Pods-vidur-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-vidur/Pods-vidur-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E114048444BD78FFD501B209 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vidur-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1AC5DA1C24936275007E7BAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -141,6 +213,7 @@
 				1AC5DA2824936275007E7BAF /* ViewController.swift in Sources */,
 				1AC5DA2424936275007E7BAF /* AppDelegate.swift in Sources */,
 				1AC5DA2624936275007E7BAF /* SceneDelegate.swift in Sources */,
+				1A9F99512495FA2800646A60 /* TriviaViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +355,7 @@
 		};
 		1AC5DA352493627E007E7BAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C2F533BBBEFE5F712507DCF /* Pods-vidur.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +374,7 @@
 		};
 		1AC5DA362493627E007E7BAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F01E8565BEC6DA59861F7D2 /* Pods-vidur.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
