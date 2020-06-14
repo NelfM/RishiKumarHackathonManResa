@@ -14,7 +14,7 @@ import UserNotifications
 
 class ViewController: UIViewController, CLLocationManagerDelegate, UNUserNotificationCenterDelegate {
 
-    @IBOutlet var mapView: MKMapView!
+    //@IBOutlet var mapView: MKMapView!
     
     @IBOutlet weak var textField: UILabel!
     
@@ -44,12 +44,12 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UNUserNotific
         long = CLLocationDegrees(location.coordinate.longitude)
         print(coordinate)
             let span = MKCoordinateSpan(latitudeDelta: 0.1, longitudeDelta: 0.1)
-            let region = MKCoordinateRegion(center: coordinate, span: span)
+        let region: MKCoordinateRegion? = MKCoordinateRegion(center: coordinate, span: span)
             
-            mapView.setRegion(region, animated: true)
+            
             let pin = MKPointAnnotation()
             pin.coordinate = coordinate
-            mapView.addAnnotation(pin)
+            
         
     }
     
