@@ -127,7 +127,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UNUserNotific
             textField.text = "did enter region"
  */
         print("Entered: \(region.identifier)")
-        postLocalNotifications(eventTitle: "Entered: \(region.identifier)")
+        postLocalNotifications(eventTitle: "Make Sure To wash your hands and sanitze.")
         }
     
     func locationManager(_ manager: CLLocationManager, didExitRegion region: CLRegion) {
@@ -149,7 +149,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, UNUserNotific
             textField.text = "did exit region "
  */
         print("Exited: \(region.identifier)")
-        postLocalNotifications(eventTitle: "Exited: \(region.identifier)")
+        postLocalNotifications(eventTitle: "Remeber to get Masks, gloves and hand sanitizer!")
                    
                }
     func requestPermissionNotifications(){
