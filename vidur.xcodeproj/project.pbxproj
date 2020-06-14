@@ -22,7 +22,7 @@
 		179CF7A77337C12BBDEDFB5A /* Pods_vidur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vidur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1A85BCD324968FC10037CB6A /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		1A9F99502495FA2800646A60 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
-		1AC5DA2024936275007E7BAF /* vidur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vidur.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC5DA2024936275007E7BAF /* Covid-19Notifications.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Covid-19Notifications.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC5DA2324936275007E7BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1AC5DA2524936275007E7BAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1AC5DA2724936275007E7BAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,7 +59,7 @@
 		1AC5DA2124936275007E7BAF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1AC5DA2024936275007E7BAF /* vidur.app */,
+				1AC5DA2024936275007E7BAF /* Covid-19Notifications.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,7 +116,7 @@
 			);
 			name = vidur;
 			productName = vidur;
-			productReference = 1AC5DA2024936275007E7BAF /* vidur.app */;
+			productReference = 1AC5DA2024936275007E7BAF /* Covid-19Notifications.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -370,7 +370,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.NealMalhotra.vidur;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Covid-19Notifications";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -390,7 +390,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.NealMalhotra.vidur;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Covid-19Notifications";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
