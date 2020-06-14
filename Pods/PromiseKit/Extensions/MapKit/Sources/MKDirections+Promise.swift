@@ -15,12 +15,12 @@ import PromiseKit
 */
 extension MKDirections {
     /// Begins calculating the requested route information asynchronously.
-    public func calculate() -> Promise<MKDirectionsResponse> {
+    public func calculate() -> Promise<MKDirections.Response> {
         return PromiseKit.wrap(calculate)
     }
 
     /// Begins calculating the requested travel-time information asynchronously.
-    public func calculateETA() -> Promise<MKETAResponse> {
+    public func calculateETA() -> Promise<MKDirections.ETAResponse> {
         return PromiseKit.wrap(calculateETA)
     }
 }

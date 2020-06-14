@@ -15,7 +15,7 @@ import PromiseKit
 */
 extension MKMapSnapshotter {
     /// Starts generating the snapshot using the options set in this object.
-    public func start() -> Promise<MKMapSnapshot> {
+    public func start() -> Promise<MKMapSnapshotter.Snapshot> {
         return PromiseKit.wrap(start)
     }
 }

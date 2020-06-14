@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A85BCD424968FC10037CB6A /* Location.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 1A85BCD324968FC10037CB6A /* Location.gpx */; };
 		1A9F99512495FA2800646A60 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A9F99502495FA2800646A60 /* TriviaViewController.swift */; };
 		1AC5DA2424936275007E7BAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2324936275007E7BAF /* AppDelegate.swift */; };
 		1AC5DA2624936275007E7BAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AC5DA2524936275007E7BAF /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		179CF7A77337C12BBDEDFB5A /* Pods_vidur.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vidur.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A85BCD324968FC10037CB6A /* Location.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Location.gpx; sourceTree = "<group>"; };
 		1A9F99502495FA2800646A60 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
 		1AC5DA2024936275007E7BAF /* vidur.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vidur.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1AC5DA2324936275007E7BAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				1A9F99502495FA2800646A60 /* TriviaViewController.swift */,
 				1AC5DA2E2493627E007E7BAF /* LaunchScreen.storyboard */,
 				1AC5DA312493627E007E7BAF /* Info.plist */,
+				1A85BCD324968FC10037CB6A /* Location.gpx */,
 			);
 			path = vidur;
 			sourceTree = "<group>";
@@ -156,6 +159,7 @@
 			files = (
 				1AC5DA302493627E007E7BAF /* LaunchScreen.storyboard in Resources */,
 				1AC5DA2D2493627E007E7BAF /* Assets.xcassets in Resources */,
+				1A85BCD424968FC10037CB6A /* Location.gpx in Resources */,
 				1AC5DA2B24936275007E7BAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -15,7 +15,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="082-v5-JrU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="082-v5-JrU">
                                 <rect key="frame" x="20" y="80" width="374" height="137"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -47,6 +47,7 @@
                     <connections>
                         <segue destination="O83-zx-NhE" kind="relationship" relationship="viewControllers" id="DA9-WL-D38"/>
                         <segue destination="BYZ-38-t0r" kind="relationship" relationship="viewControllers" id="aBc-aV-tnt"/>
+                        <segue destination="uBf-c7-c7k" kind="relationship" relationship="viewControllers" id="rX5-g7-t03"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8Ej-uJ-rd2" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -61,9 +62,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="DIRECTIONS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3E-iy-Lr9">
-                                <rect key="frame" x="84" y="128" width="267" height="173"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="7" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3E-iy-Lr9">
+                                <rect key="frame" x="20" y="128" width="374" height="345"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">Hello and welcome to our app. Our app helps people by giving them notifications to rember to bring gloves masks, and other essential items. It also has a proximity sensor so that if you get closer than 6ft, it detects the other phone and sends a notification</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -77,6 +79,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1333.3333333333335" y="-125.22321428571428"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="1xb-lZ-fNE">
+            <objects>
+                <viewController id="uBf-c7-c7k" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="tuV-mz-pkW">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="zN7-Am-qsk"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item" id="wnX-pa-snN"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BXS-Uw-1nL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-219" y="218"/>
         </scene>
     </scenes>
 </document>
